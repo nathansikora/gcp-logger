@@ -1,3 +1,2 @@
-FROM tiangolo/uvicorn-gunicorn-fastapi:python3.7
-EXPOSE 80
-ENTRYPOINT ["python", "main.py"]
+FROM tiangolo/uvicorn-gunicorn-fastapi:python3.11
+COPY ./app /app
